@@ -51,6 +51,8 @@
 	</dict>
 	<key>Smartech</key>
 	<string>3.6.1</string>
+	<key>Smartech Build</key>
+	<string>0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
