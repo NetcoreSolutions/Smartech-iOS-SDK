@@ -9,6 +9,8 @@
 //#ifndef SmartechPushProtocol_h
 #define SmartechPushProtocol_h
 
+#import <UserNotifications/UserNotifications.h>
+
 @protocol SmartechPushProtocol
 
 - (BOOL)checkIfTokenNeedsToBeSend;
@@ -28,5 +30,11 @@
 - (void)handleDeeplinkURLString:(NSString *_Nullable)deeplinkString customPayload:(NSDictionary * _Nullable)customPayload;
 
 - (void)loadSmartechStore;
+
+- (void)handleDoubleOptInWithStatus:(UNAuthorizationStatus)status forceOptIn:(BOOL)forceOptIn andInstantOptIn:(BOOL)isInstantOptIn;
+
+- (void)resetDoubleOptIn;
+
+- (void)saveDobuleOptIn2Timestamp:(NSDate * _Nullable)date;
 
 @end

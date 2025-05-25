@@ -4,3 +4,8 @@ framework module Smartech {
 
   module * { export * }
 }
+
+module Smartech.Swift {
+  header "Smartech-Swift.h"
+  requires objc
+}

@@ -1,0 +1,356 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Smartech",
+    "printedName": "Smartech",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Smartech",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "Smartech"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SMTAESCrypto",
+        "printedName": "SMTAESCrypto",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "aesEncryptGCM",
+            "printedName": "aesEncryptGCM(_:secretKey:iv:aad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Smartech@objc(cs)SMTAESCrypto(cm)aesEncryptGCM:secretKey:iv:aad:",
+            "mangledName": "$s8Smartech12SMTAESCryptoC13aesEncryptGCM_9secretKey2iv3aadSSSgSS_S3StFZ",
+            "moduleName": "Smartech",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "aesDecryptGCM",
+            "printedName": "aesDecryptGCM(_:secretKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Smartech@objc(cs)SMTAESCrypto(cm)aesDecryptGCM:secretKey:",
+            "mangledName": "$s8Smartech12SMTAESCryptoC13aesDecryptGCM_9secretKeySSSgSS_SStFZ",
+            "moduleName": "Smartech",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateNonce",
+            "printedName": "generateNonce()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Smartech@objc(cs)SMTAESCrypto(cm)generateNonce",
+            "mangledName": "$s8Smartech12SMTAESCryptoC13generateNonceSSyFZ",
+            "moduleName": "Smartech",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateAAD",
+            "printedName": "generateAAD(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Smartech@objc(cs)SMTAESCrypto(cm)generateAADWithConfig:",
+            "mangledName": "$s8Smartech12SMTAESCryptoC11generateAAD6configSSSi_tFZ",
+            "moduleName": "Smartech",
+            "static": true,
+            "objc_name": "generateAADWithConfig:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SMTAESCrypto",
+                "printedName": "Smartech.SMTAESCrypto",
+                "usr": "c:@M@Smartech@objc(cs)SMTAESCrypto"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Smartech@objc(cs)SMTAESCrypto(im)init",
+            "mangledName": "$s8Smartech12SMTAESCryptoCACycfc",
+            "moduleName": "Smartech",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Smartech@objc(cs)SMTAESCrypto",
+        "mangledName": "$s8Smartech12SMTAESCryptoC",
+        "moduleName": "Smartech",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "Available",
+          "Available"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Smartech"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Smartech"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Smartech"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "Smartech"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/JK\/_Work\/Code\/_Smartech\/_Release\/SDK-Release-Section\/Smartech-iOS-SDK\/Smartech\/Smartech\/Utility\/Encryption\/SMTAESCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/JK\/_Work\/Code\/_Smartech\/_Release\/SDK-Release-Section\/Smartech-iOS-SDK\/Smartech\/Smartech\/Utility\/Encryption\/SMTAESCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 418,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/JK\/_Work\/Code\/_Smartech\/_Release\/SDK-Release-Section\/Smartech-iOS-SDK\/Smartech\/Smartech\/Utility\/Encryption\/SMTAESCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/JK\/Library\/Developer\/Xcode\/DerivedData\/Smartech-bljqoftwefcsxgbqzrjdahqaeupm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Smartech\/IntermediateBuildFilesPath\/Smartech.build\/Release-iphoneos\/Smartech.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 17,
+      "value": "\"smt-inapp-close\""
+    }
+  ]
+}

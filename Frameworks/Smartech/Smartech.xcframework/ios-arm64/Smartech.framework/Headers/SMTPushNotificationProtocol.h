@@ -17,4 +17,6 @@
 
 - (void)setPushAmpAndScheduleNotifications:(NSArray * _Nullable)notifications with:(NSArray * _Nullable)scheduledNotifications;
 
+- (void)requestNotificationPermission;
+
 @end
