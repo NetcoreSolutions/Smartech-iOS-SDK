@@ -120,6 +120,19 @@ static NSString *const kSMTDatabaseObjectID = @"objectID";
                              sortDescriptor:(NSSortDescriptor * _Nullable)sortDescriptor
                                   inContext:(NSManagedObjectContext *)context;
 
+/**
+ @brief This method is called to get the count of rows from the database after sorting with predicate.
+ 
+ @param predicate The where clause.
+ @param sortDescriptors The sort descriptor array..
+ @param context The core data context.
+ 
+ @return NSUInteger A count of objects.
+ */
++ (NSArray *)findObjectsWithPredictate:(NSPredicate * _Nullable)predicate
+                                         sortDescriptors:(NSArray<NSSortDescriptor *> * _Nullable)sortDescriptors
+                             inContext:(NSManagedObjectContext *)context;
+
 
 /**
  @brief This method is called to save the objets into the database.
@@ -143,6 +156,8 @@ static NSString *const kSMTDatabaseObjectID = @"objectID";
                              inContext:(NSManagedObjectContext *)context;
 
 + (NSArray *)findObjectsWithDistinct:(NSManagedObjectContext *)context;
+
++ (NSArray *)findObjectsWithDistinct:(NSManagedObjectContext *)context andProperty:(NSString *)property;
 
 /**
 @brief This method is called to fetch the objects from the database with record limit

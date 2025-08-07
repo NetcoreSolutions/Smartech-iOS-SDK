@@ -14,9 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, SMTBackendEnvironment) {
     BackendEnvironmentProduction = 0,
-    BackendEnvironmentPod = 1,
+    BackendEnvironmentPod2 = 1,
     BackendEnvironmentStaging = 2,
-    BackendEnvironmentIndependent = 3,
+    BackendEnvironmentCustom = 3,
 };
 
 typedef NS_ENUM(NSUInteger, BackendBaseURLType) {
@@ -28,7 +28,8 @@ typedef NS_ENUM(NSUInteger, BackendBaseURLType) {
     BackendBaseURLTypeCategory = 5,
     BackendBaseURLTypeListSegment = 6,
     BackendBaseURLTypeGeofences = 7,
-    BackendBaseURLTypeAddTestDevice = 8
+    BackendBaseURLTypeAddTestDevice = 8,
+    BackendBaseURLTypeContentPz = 9
 };
 
 
@@ -45,6 +46,7 @@ typedef NS_ENUM(NSUInteger, BackendBaseURLType) {
 @property (nonatomic, readonly, copy) NSURL *listSegmentURL;
 @property (nonatomic, readonly, copy) NSURL *geofencesURL;
 @property (nonatomic, readonly, copy) NSURL *addTestDeviceURL;
+@property (nonatomic, readonly, copy) NSURL *contentPzURL;
 
 /**
  @brief Returns the global SMTBackendConfiguration instance.

@@ -52,6 +52,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (instancetype)initWithInfo:(SMTInfo *)info;
 
++ (NSInteger)getClientId;
+
 @end
 
 NS_ASSUME_NONNULL_END

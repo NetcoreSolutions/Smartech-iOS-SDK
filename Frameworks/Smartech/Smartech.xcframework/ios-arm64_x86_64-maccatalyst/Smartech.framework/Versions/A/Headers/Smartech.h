@@ -24,6 +24,8 @@ FOUNDATION_EXPORT const unsigned char SmartechVersionString[];
 #import <Smartech/SMTServiceOperation.h>
 #import <Smartech/SMTBaseRequest.h>
 #import <Smartech/SMTAppInboxSettings.h>
+#import <Smartech/SMTWidget.h>
+#import <Smartech/SmartechConfig.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -64,6 +66,19 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 
 @end
 
+@protocol SmartechWidgetDelegate <NSObject>
+
+@optional
+
+/**
+ @brief This is Smartech Widget SDK's delegate method for deeplink handling the widget data callback.
+ 
+ @param widgetDictionary - The dictionary of widgets which are successfully evaluated.
+ */
+- (void)handleWidgetData:(NSDictionary<NSString *, SMTWidget *> *)widgetDictionary;
+
+@end
+
 @protocol SMTAppWebViewDelegate <NSObject>
 
 /**
@@ -80,6 +95,7 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 
 @property (nonatomic, copy, readonly) NSString *appGroup;
 @property (nonatomic, weak, readonly) id <SmartechDelegate> delegate;
+@property (nonatomic, assign) id <SmartechWidgetDelegate> widgetDelegate;
 @property (nonatomic, strong, readonly) SmartechHandler *smartechHandler;
 @property (nonatomic, assign) BOOL appDidBecomeVisible;
 @property (nonatomic, weak) id <SMTAppWebViewDelegate> smtAppWebViewDelegate;
@@ -597,6 +613,25 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
  */
 - (void)removeInAppAppData;
 
+/**
+ @brief This function will set the Smartech config..
+ @param smartechConfig config.
+ */
+- (void)setSmartechConfig:(SmartechConfig *)smartechConfig;
+
+#pragma mark - App Content Pz Methods
+
+- (NSArray <NSString *> *)getAllWidgetNames;
+
+- (void)getWidgetByName:(NSString *)widgetName;
+
+- (void)getAllWidgets;
+
+- (void)getWidgetByNames:(NSArray *)widgetNames;
+
+- (void)trackWidgetAsViewed:(SMTWidget *)widget;
+
+- (void)trackWidgetAsClicked:(SMTWidget *)widget;
 
 @end
 
