@@ -95,7 +95,7 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 
 @property (nonatomic, copy, readonly) NSString *appGroup;
 @property (nonatomic, weak, readonly) id <SmartechDelegate> delegate;
-@property (nonatomic, assign) id <SmartechWidgetDelegate> widgetDelegate;
+@property (nonatomic, assign, nullable) id <SmartechWidgetDelegate> widgetDelegate;
 @property (nonatomic, strong, readonly) SmartechHandler *smartechHandler;
 @property (nonatomic, assign) BOOL appDidBecomeVisible;
 @property (nonatomic, weak) id <SMTAppWebViewDelegate> smtAppWebViewDelegate;
