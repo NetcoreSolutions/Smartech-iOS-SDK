@@ -71,7 +71,7 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 @optional
 
 /**
- @brief This is Smartech Widget SDK's delegate method for deeplink handling the widget data callback.
+ @brief This is Smartech Widget SDK's delegate method for the widget data callback.
  
  @param widgetDictionary - The dictionary of widgets which are successfully evaluated.
  */
@@ -469,6 +469,15 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 - (NSString *)getNCExternalIdentity;
 
 /**
+ @brief This method is used to get the Netcore Unbxd identity of the current  user.
+ 
+ @discussion If you call this method you will get the Netcore Unbxd identity of the current  user..
+
+ @return NSString - the Netcore Unbxd Identity.
+*/
+- (NSString *)getNetcoreUnbxdIdentity;
+
+/**
  @brief This method is used to get all the partner parameters.
 
  @discussion If you call this method you will get the partner parameter that you will need to send to any third party SDK's.
@@ -618,6 +627,7 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
  @param smartechConfig config.
  */
 - (void)setSmartechConfig:(SmartechConfig *)smartechConfig;
+
 
 #pragma mark - App Content Pz Methods
 
