@@ -27,6 +27,8 @@
 
 - (void)recordEventWithId:(NSInteger)eventId eventType:(NSInteger)eventType andPayload:(NSDictionary * _Nullable)payloadDictionary;
 
+- (void)recordEventWithName:(NSString * _Nonnull)eventName eventType:(NSInteger)eventType andPayload:(NSDictionary * _Nullable)payloadDictionary;
+
 - (void)handleDeeplinkURLString:(NSString *_Nullable)deeplinkString customPayload:(NSDictionary * _Nullable)customPayload;
 
 - (void)loadSmartechStore;

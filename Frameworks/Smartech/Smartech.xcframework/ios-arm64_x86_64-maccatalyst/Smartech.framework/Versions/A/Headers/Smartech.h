@@ -26,6 +26,14 @@ FOUNDATION_EXPORT const unsigned char SmartechVersionString[];
 #import <Smartech/SMTAppInboxSettings.h>
 #import <Smartech/SMTWidget.h>
 #import <Smartech/SmartechConfig.h>
+#import <Smartech/SmartechProtocol.h>
+#import <Smartech/HanselProtocol.h>
+#import <Smartech/SmartechAdapter.h>
+#import <Smartech/SmartechPushProtocol.h>
+#import <Smartech/SMTSmartechProtocol.h>
+#import <Smartech/SMTAppInboxProtocol.h>
+#import <Smartech/SMTPushNotificationProtocol.h>
+#import <Smartech/PushNotificationAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -41,6 +49,7 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
     SMTLogLevelError = 5,
     SMTLogLevelFatal = 6,
     SMTLogLevelNone = 7,
+    SMTLogLevelSystem = 8
 };
 
 @protocol SmartechDelegate <NSObject>

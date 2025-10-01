@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)recordEventWithId:(NSInteger)eventId eventType:(NSInteger)eventType andPayload:(NSDictionary * _Nullable)payloadDictionary;
 
+- (void)recordEventWithName:(NSString *)eventName eventType:(NSInteger)eventType andPayload:(NSDictionary *_Nullable)payloadDictionary;
+
 - (void)requestNotificationPermission;
 
 @end

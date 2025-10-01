@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class SMTWidgetContent;
+#import <Smartech/SMTWidgetContent.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
