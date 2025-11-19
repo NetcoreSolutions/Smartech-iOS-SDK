@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>25A362</string>
+	<string>25B78</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.7.2</string>
+	<string>3.7.3</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -39,9 +39,9 @@
 	<key>DTSDKName</key>
 	<string>macosx26.0</string>
 	<key>DTXcode</key>
-	<string>2600</string>
+	<string>2601</string>
 	<key>DTXcodeBuild</key>
-	<string>17A324</string>
+	<string>17A400</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15</string>
 	<key>NSAppTransportSecurity</key>
@@ -50,7 +50,7 @@
 		<dict/>
 	</dict>
 	<key>Smartech</key>
-	<string>3.7.2</string>
+	<string>3.7.3</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
