@@ -17,6 +17,8 @@ typedef NS_ENUM(NSUInteger, SMTBackendEnvironment) {
     BackendEnvironmentPod2 = 1,
     BackendEnvironmentStaging = 2,
     BackendEnvironmentCustom = 3,
+    BackendEnvironmentGQA = 4,
+    BackendEnvironmentGStaging = 5,
 };
 
 typedef NS_ENUM(NSUInteger, BackendBaseURLType) {
@@ -25,11 +27,10 @@ typedef NS_ENUM(NSUInteger, BackendBaseURLType) {
     BackendBaseURLTypePushAmp = 2,
     BackendBaseURLTypeInAppMessage = 3,
     BackendBaseURLTypeAppInbox = 4,
-    BackendBaseURLTypeCategory = 5,
-    BackendBaseURLTypeListSegment = 6,
-    BackendBaseURLTypeGeofences = 7,
-    BackendBaseURLTypeAddTestDevice = 8,
-    BackendBaseURLTypeContentPz = 9
+    BackendBaseURLTypeListSegment = 5,
+    BackendBaseURLTypeGeofences = 6,
+    BackendBaseURLTypeAddTestDevice = 7,
+    BackendBaseURLTypeContentPz = 8
 };
 
 

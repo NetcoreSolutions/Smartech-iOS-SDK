@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isAppInboxEnabled;
 @property (nonatomic, assign) NSInteger messageCachePeriod;
 @property (nonatomic, assign) NSInteger mediaCachingSize;
+@property (nonatomic, assign) NSInteger clientId;
 
 /**
  @brief This method gives back the dictionary object of self object.
