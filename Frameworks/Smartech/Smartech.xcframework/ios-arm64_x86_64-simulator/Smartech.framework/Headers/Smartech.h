@@ -234,6 +234,22 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 - (void)login:(NSString *)userIdentity;
 
 /**
+ @brief This method is used to send login event to Smartech backend with hashed identity.
+ 
+ @discussion This method should be called only when the app gets the user's identity or when the user does a login activity in the application. The identity will be hashed using SHA256 with the provided salt before being stored.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] loginWithHashedIdentity:@"Your Primary Key Configured In Smartech Panel" salt:@"YourSalt"];
+ @endcode
+ 
+ @param userIdentity The user's primary key as configured in the Smartech Panel.
+ @param salt The salt to be used for hashing the identity. Can be nil to hash without salt.
+ */
+- (void)loginWithHashedIdentity:(NSString *)userIdentity salt:(NSString * _Nullable)salt;
+
+/**
  @brief This method would logout the user and clear identity on Smartech backend.
  
  @discussion This method should be called only when the user log out of the application.
@@ -262,6 +278,22 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
  @param userIdentity The user identity.
  */
 - (void)setUserIdentity:(NSString *)userIdentity;
+
+/**
+ @brief This method would set the user identity locally with hashing and with all subsequent events this hashed identity will be send.
+ 
+ @discussion This method should be called only when the user gets the identity. The identity will be hashed using SHA256 with the provided salt before being stored.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] setHashedUserIdentity:@"Your Primary Key Configured In Smartech Panel" salt:@"YourSalt"];
+ @endcode
+ 
+ @param userIdentity The user identity.
+ @param salt The salt to be used for hashing the identity. Can be nil to hash without salt.
+ */
+- (void)setHashedUserIdentity:(NSString *)userIdentity salt:(NSString * _Nullable)salt;
 
 /**
  @brief This method would get the user identity that is stored in the SDK.
