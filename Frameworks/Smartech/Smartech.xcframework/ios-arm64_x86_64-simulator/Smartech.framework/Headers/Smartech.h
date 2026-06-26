@@ -26,6 +26,7 @@ FOUNDATION_EXPORT const unsigned char SmartechVersionString[];
 #import <Smartech/SMTAppInboxSettings.h>
 #import <Smartech/SMTWidget.h>
 #import <Smartech/SmartechConfig.h>
+#import <Smartech/SMTHostValidator.h>
 #import <Smartech/SmartechProtocol.h>
 #import <Smartech/HanselProtocol.h>
 #import <Smartech/SmartechAdapter.h>

@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, nullable) NSString *hanselAppKey;
 @property (nonatomic, assign, readwrite) BOOL isHanselDisabled;
 @property (nonatomic, assign, readwrite) BOOL isInternetCheckDisabled;
+@property (nonatomic, assign, readwrite) BOOL enableTrustedHostsValidation;
+@property (nonatomic, strong, nullable) NSArray<NSString *> *inAppTrustedHosts;
 
 + (instancetype)sharedInstance;
 
