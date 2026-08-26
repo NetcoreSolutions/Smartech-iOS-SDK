@@ -7,5 +7,4 @@ framework module Smartech {
 
 module Smartech.Swift {
   header "Smartech-Swift.h"
-  requires objc
 }

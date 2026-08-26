@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, nullable) NSString *appGroup;
 @property (nonatomic, strong, nullable) NSString *hanselAppId;
 @property (nonatomic, strong, nullable) NSString *hanselAppKey;
+@property (nonatomic, strong, nullable) NSString *apiKeyForTrackEvents;
 @property (nonatomic, assign, readwrite) BOOL isHanselDisabled;
 @property (nonatomic, assign, readwrite) BOOL isInternetCheckDisabled;
 @property (nonatomic, assign, readwrite) BOOL enableTrustedHostsValidation;
@@ -27,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)saveData;
 
 - (BOOL)isSmartechConfigInitialized;
+
 
 @end
 

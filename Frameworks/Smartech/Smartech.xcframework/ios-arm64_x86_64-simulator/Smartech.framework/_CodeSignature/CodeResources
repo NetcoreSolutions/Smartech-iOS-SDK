@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		KB+ZzVoxBI7FOQphr+MC8gOiBv0=
+		jGJ24aTxxwJMlysx5tq3Clvzyd8=
 		</data>
 		<key>Headers/HanselProtocol.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/Smartech-Swift.h</key>
 		<data>
-		u6NtJOy+e4l9Va1imruBoqzbUsY=
+		0yeeZYAk7QsWiNlacTQdoX9uu/U=
 		</data>
 		<key>Headers/Smartech.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/SmartechConfig.h</key>
 		<data>
-		WR8iOT5RPC2rzHLjbD0qSbg1C3Y=
+		OCtbjkTFhsRlSaFfo+NByjFkjw0=
 		</data>
 		<key>Headers/SmartechProtocol.h</key>
 		<data>
@@ -102,51 +102,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MYC0wUXcyczzASsjZyNOHQyzLS8=
+		QwgoD+ccfE/F+PMXVpHyW3pSHO0=
 		</data>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FdaueozLB/x+kqy0MigcEqqFaDc=
+		TmyqCtPxJ+9OMbBtr0wBewgsjUI=
 		</data>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Krz28ATbVe5N/DOw5fgrc5jlhro=
+		On3FYwzD8CwdhrtMHsLfpBY4Zuw=
 		</data>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KTwvA8E6KhmfZFO8y1u1LVOT2CY=
+		ecv1cDgKlSRS9casBxu5WssYHMg=
 		</data>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Krz28ATbVe5N/DOw5fgrc5jlhro=
+		On3FYwzD8CwdhrtMHsLfpBY4Zuw=
 		</data>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LAZrtH5Yh5Q1fAzpqFM3QzRRE3c=
+		v+CWjMEsrdqyHVOr83IfpyKqOyc=
 		</data>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FdaueozLB/x+kqy0MigcEqqFaDc=
+		TmyqCtPxJ+9OMbBtr0wBewgsjUI=
 		</data>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		S3SU8rrkMqS609F1MsF7IRtqOCE=
+		xAKXtHvEU4gFJx9RFA+NL5WAuEA=
 		</data>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NzZ5o7Lc7R/lZsJbT4nCGg8Ei5E=
+		i85r78YeBeTR/tDgA32BAIaP+lo=
 		</data>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		S3SU8rrkMqS609F1MsF7IRtqOCE=
+		xAKXtHvEU4gFJx9RFA+NL5WAuEA=
 		</data>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eIo5WQK8UgE9B0xQEZyJ934oNCI=
+		M68p4JQVtoRrJQTLaKrKRsEpvt0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		M0cVhWMLt5E+1jEEKD1kbwfepZs=
+		94mLj4y+OG7uxrPSfCiQmETFHew=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -154,35 +154,35 @@
 		</data>
 		<key>SmartechDB.momd/SmartechDB 2.mom</key>
 		<data>
-		9ourA7mOegfcWEf+Ahm2ogrKswU=
+		CbehHk+kVWErFFC1HaSg7PJVSKA=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 3.mom</key>
 		<data>
-		f33BMmwm439iZdtR3szj60ttJPs=
+		GToVOQUjd4vkyxBA2I/ykzSOXzw=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 4.mom</key>
 		<data>
-		f33BMmwm439iZdtR3szj60ttJPs=
+		GToVOQUjd4vkyxBA2I/ykzSOXzw=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 5.mom</key>
 		<data>
-		fzTuVj7ACIDivQWKWf+JSDKSnzw=
+		hdaG49ayjk7vVcM49G4EYK8DriQ=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 6.mom</key>
 		<data>
-		JLJW6MxTOfzEdbUQ0p5kRQpAW74=
+		hu8MNR7aBDr9gut6C1P708U2bwg=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 7.mom</key>
 		<data>
-		qC4CIa09aMOR8bi4/IfXINNsjDI=
+		p3qXbBEMH6R+hi0a5RaQuZjsXjo=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 8.mom</key>
 		<data>
-		311yiiUUnarSGbIV8iLl9+3w1do=
+		ZUXcSJTGRcubTa8cDMBHfYadiG0=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 9.mom</key>
 		<data>
-		D2sII4D8S4ZW7XUNOxyZ+tCT41A=
+		K3XL9FjsjWM9KhrmFyVfZd/BeVY=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 9.omo</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>SmartechDB.momd/SmartechDB.mom</key>
 		<data>
-		iHxoE47uso7HnYHBMRJuAS5xP3c=
+		8DTk0AfHOv+OgZo0B0yu0ZIOnsc=
 		</data>
 		<key>SmartechDB.momd/VersionInfo.plist</key>
 		<data>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KB+ZzVoxBI7FOQphr+MC8gOiBv0=
+			jGJ24aTxxwJMlysx5tq3Clvzyd8=
 			</data>
 			<key>hash2</key>
 			<data>
-			vmrCxdzr/PH4uQhPZZDPSxzedeVzNA0IPnQI2wgbM60=
+			C7nxndDpIkhXuKksLUOZxvFwA6rhkgIO+kd/b3MLkaI=
 			</data>
 		</dict>
 		<key>Headers/HanselProtocol.h</key>
@@ -401,11 +401,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u6NtJOy+e4l9Va1imruBoqzbUsY=
+			0yeeZYAk7QsWiNlacTQdoX9uu/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			7ClyVz/KVk8rkFw+m1/1lz85I0bHNN1r+gBCReW7PxI=
+			B/WtdUxdnkZRKoGjbX+KFQPYc8TVttSUhCZ355ZyByc=
 			</data>
 		</dict>
 		<key>Headers/Smartech.h</key>
@@ -434,11 +434,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WR8iOT5RPC2rzHLjbD0qSbg1C3Y=
+			OCtbjkTFhsRlSaFfo+NByjFkjw0=
 			</data>
 			<key>hash2</key>
 			<data>
-			aF++r/NFCf0KNa8NhqbluZlx6/i4ohPkPrRIPJujgeA=
+			GHlzOlcWabZLorM1spvAa6zvQhVygKVZKFqVzddbqrU=
 			</data>
 		</dict>
 		<key>Headers/SmartechProtocol.h</key>
@@ -467,121 +467,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FdaueozLB/x+kqy0MigcEqqFaDc=
+			TmyqCtPxJ+9OMbBtr0wBewgsjUI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zb1KAuW9ufovrXTFj27AwagwFeFAtUfkLQ+J2qy1Yro=
+			evENeYy4BdSVNBku4Sii6ADcL9V6JkyQuXJ370sIsVw=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Krz28ATbVe5N/DOw5fgrc5jlhro=
+			On3FYwzD8CwdhrtMHsLfpBY4Zuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8AHN/k6GdPBIn10kjnepCIIM5h5Gogrh0cPWJoR8qYA=
+			GaH66oQqvCmmQA98CLeDAeKS1Ya+3A2NJkTU+Dzlf9s=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KTwvA8E6KhmfZFO8y1u1LVOT2CY=
+			ecv1cDgKlSRS9casBxu5WssYHMg=
 			</data>
 			<key>hash2</key>
 			<data>
-			vwppT65cuuRGk+OfIfPVUqS5CqU89jQQ0mCdA3+pVdw=
+			iz6Yhrz4bQetBgDySLjqioypnwwbgAh+7PMtAfwF/eE=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Krz28ATbVe5N/DOw5fgrc5jlhro=
+			On3FYwzD8CwdhrtMHsLfpBY4Zuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8AHN/k6GdPBIn10kjnepCIIM5h5Gogrh0cPWJoR8qYA=
+			GaH66oQqvCmmQA98CLeDAeKS1Ya+3A2NJkTU+Dzlf9s=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LAZrtH5Yh5Q1fAzpqFM3QzRRE3c=
+			v+CWjMEsrdqyHVOr83IfpyKqOyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ouye1W67yVtkm/q8xIpj1+YazmKfQiv+kTvdyq8uWuw=
+			oLt9TuKXEjrBRnjvFAn1j75Mm3CQOLSgu1eSvPgX/s0=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FdaueozLB/x+kqy0MigcEqqFaDc=
+			TmyqCtPxJ+9OMbBtr0wBewgsjUI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zb1KAuW9ufovrXTFj27AwagwFeFAtUfkLQ+J2qy1Yro=
+			evENeYy4BdSVNBku4Sii6ADcL9V6JkyQuXJ370sIsVw=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S3SU8rrkMqS609F1MsF7IRtqOCE=
+			xAKXtHvEU4gFJx9RFA+NL5WAuEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2/oe68WLmpM5oBSslsIRS7xqHQtuxoe9s3dRD6e/HbY=
+			tF7q0iTtxM9Fk65AyPEmN3odIWyei3rW0vc5I91oOMQ=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NzZ5o7Lc7R/lZsJbT4nCGg8Ei5E=
+			i85r78YeBeTR/tDgA32BAIaP+lo=
 			</data>
 			<key>hash2</key>
 			<data>
-			+eCxgukDqvIgUM6W0kIeA5mO5HkQgfbziu/nR7ptFXI=
+			4vb2wd2sRmib+yWpdjHf1pPfuywIuvnOJsDtJ1aeLiA=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S3SU8rrkMqS609F1MsF7IRtqOCE=
+			xAKXtHvEU4gFJx9RFA+NL5WAuEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2/oe68WLmpM5oBSslsIRS7xqHQtuxoe9s3dRD6e/HbY=
+			tF7q0iTtxM9Fk65AyPEmN3odIWyei3rW0vc5I91oOMQ=
 			</data>
 		</dict>
 		<key>Modules/Smartech.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eIo5WQK8UgE9B0xQEZyJ934oNCI=
+			M68p4JQVtoRrJQTLaKrKRsEpvt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			h4vZQQAQPpd9YB/MQg/022FEw+EpQO/kwCrNs/UVS9k=
+			leXpM3ugbaiGWNv/rqLkarPZ4dtvEwMWoVCBAeOn354=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M0cVhWMLt5E+1jEEKD1kbwfepZs=
+			94mLj4y+OG7uxrPSfCiQmETFHew=
 			</data>
 			<key>hash2</key>
 			<data>
-			ve4CB5oQQgkQOsRJORp40pVMa/i4Cg15U2SSDELydSo=
+			ZsUZWQ/CcnnFbhkvb9NzbNaJJah+Hyn6osQfSh86G2A=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -599,88 +599,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9ourA7mOegfcWEf+Ahm2ogrKswU=
+			CbehHk+kVWErFFC1HaSg7PJVSKA=
 			</data>
 			<key>hash2</key>
 			<data>
-			PP9Bndtj5r6FUmm8ABhMuAr6Rck3f2N0R3NyDQaklWg=
+			MBC2Nx7LzJhiJV96jZpvNuURBWzxIOBof7AWsYQKM74=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 3.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f33BMmwm439iZdtR3szj60ttJPs=
+			GToVOQUjd4vkyxBA2I/ykzSOXzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/H+bb2wuC4VUdw871fdNUGqEeqq4LWC40w1Wj4CF7Zc=
+			5q0a5BLxXDBQ7kwd/WrAuCPKUXvZhCMd+0DeS8Xfll4=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 4.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f33BMmwm439iZdtR3szj60ttJPs=
+			GToVOQUjd4vkyxBA2I/ykzSOXzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			/H+bb2wuC4VUdw871fdNUGqEeqq4LWC40w1Wj4CF7Zc=
+			5q0a5BLxXDBQ7kwd/WrAuCPKUXvZhCMd+0DeS8Xfll4=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 5.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fzTuVj7ACIDivQWKWf+JSDKSnzw=
+			hdaG49ayjk7vVcM49G4EYK8DriQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			szF6TAXie4K9jdG6XKUH9c809Yu+rJHFpUFrbHbnUcM=
+			tcsCSQkjZ23cQifnG9UceQ9Yc2IEGselDwMQKmIGFWo=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 6.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JLJW6MxTOfzEdbUQ0p5kRQpAW74=
+			hu8MNR7aBDr9gut6C1P708U2bwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			QGCy3X/VTRNh4+BOzei7EaGd83DHzGzCiT7P8fJojbM=
+			2a6nM02/sNEx8OJuKJNgC/O0NE0bFCsOr9QrkuShO+I=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 7.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qC4CIa09aMOR8bi4/IfXINNsjDI=
+			p3qXbBEMH6R+hi0a5RaQuZjsXjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			j+XmSNKP8dhHmnaFVcmwvxAw+nVk8/6egIBRuhNgKzA=
+			X/Natg421eTErhQd8lidh4Z9W9fbOYls5Z6aQGhL9jw=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 8.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			311yiiUUnarSGbIV8iLl9+3w1do=
+			ZUXcSJTGRcubTa8cDMBHfYadiG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			VJrtI2wCoFwBFLUUXVQAQ8YQ7M0qCKwHYObh038V4Xg=
+			Lrhk1gfP5NqeyC3DZ63Mtz2qu15FgIgWv/zGSDA0t0A=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 9.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D2sII4D8S4ZW7XUNOxyZ+tCT41A=
+			K3XL9FjsjWM9KhrmFyVfZd/BeVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			AeEHm9jtzWRjmKMIbUfM1nARBCZ33hdq+0SvK2zcqMA=
+			eXZOvwVb+4RXyboluL+SaEgc6Fy6XjvixFVKqyIitXc=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 9.omo</key>
@@ -698,11 +698,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iHxoE47uso7HnYHBMRJuAS5xP3c=
+			8DTk0AfHOv+OgZo0B0yu0ZIOnsc=
 			</data>
 			<key>hash2</key>
 			<data>
-			eYaKdCUBKU6lh+8baTr3fIf9s65HkmqckUx/vKCKYYY=
+			c88MLKyBp5lF8SztHLMMoRM+xxrmzuObugvGe/mRK+I=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/VersionInfo.plist</key>
